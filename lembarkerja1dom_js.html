@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Javascript DOM</title>
+    <style>
+        #teks {
+            color: black;
+            font-size: 16px;
+        }
+        #btn {
+            padding: 10px;
+            margin: 10px;
+            background-color: lightgray;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="judul">Javascript</h1>
+    <p id="paragraf">Ini adalah  paragraf awal</p>
+
+    <img id="gambar" src="https://bit.ly/4bHRcIJ" width="200" height="150"><br>
+    <button onclick="ubahGambar()">Ubah Gambar</button>
+
+    <p id="teks">Teks ini akan berubah warna dan ukuran.</p>
+    <button onclick="ubahTeks()">Ubah Teks</button>
+
+    <div id="kontainer">
+        <p id="hapus">Ini adalah teks yang akan dihapus.</p>
+        <button onclick="hapusElemen()">Hapus</button>
+    </div>
+    <br>
+
+    <button onclick="tambahElemen()">Tambah paragraf</button>
+    <div id="area"></div>
+
+    <button id="tombol">Klik saya</button>
+
+    <button id="btn">MouseOver</button>
+
+    <script src="jsDOM.js"></script>
+</body>
+</html>
